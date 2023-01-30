@@ -1,0 +1,7 @@
+Truck Truck Ford 2020 manual 250 32 yes
+SUV SUV Dodge 2001 manual - 10 yes
+Truck Truck Seat 2020 manual 300 40 yes
+SUV SUV VW 2010 auto - 15 yes
+Truck Truck Scania 2015 manual 150 30 yes
+SUV SUV Dodge 2022 auto - 29 yes
+SUV SUV Toyota 2016 auto - 12 yes
