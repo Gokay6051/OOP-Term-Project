@@ -65,7 +65,7 @@ public:
 
     int calcInvoice(int day) { return price * day; }
     friend istream& operator>>(istream& is, Vehicle& t);
-    friend ostream& operator>>(ostream& os, Vehicle& t);
+    friend ostream& operator<<(ostream& os, Vehicle& t);
 };
 
 istream& operator>>(istream& is, Vehicle& t) {
@@ -102,7 +102,7 @@ public:
 
     int calcInvoice(int day) { return price * day; }
     friend istream& operator>>(istream& is, Truck& t);
-    friend ostream& operator>>(ostream& os, Truck& t);
+    friend ostream& operator<<(ostream& os, Truck& t);
 };
 
 istream& operator>>(istream& is, Truck& t) {
@@ -140,7 +140,7 @@ public:
 
     int calcInvoice(int day) { return price * day; }
     friend istream& operator>>(istream& is, SUV& t);
-    friend ostream& operator>>(ostream& os, SUV& t);
+    friend ostream& operator<<(ostream& os, SUV& t);
 };
 
 istream& operator>>(istream& is, SUV& t) {
